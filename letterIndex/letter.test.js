@@ -1,12 +1,12 @@
 const getLetter = require('./letter');
 
 test('Input starts with a vowel', () => {
-    expect(getLetter('apple')).toBe('A');
+    expect(getLetter('adfgt')).toBe('A');
 });
 
 // Test case 2: Input starts with a consonant in group B
 test('Input starts with a consonant in group B', () => {
-    expect(getLetter('banana')).toBe('B');
+    expect(getLetter('buday')).toBe('B');
 });
 // Test case: Input is not a string
 test('Input is not a string', () => {
