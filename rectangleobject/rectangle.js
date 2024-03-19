@@ -3,7 +3,7 @@ function Rectangle(a, b) {
         throw new Error("Invalid dimensions: Length and width must be numeric values");
     }
 
-    if (a <= 0 || b <= 0) {
+   else if (a <= 0 || b <= 0) {
         throw new Error("Invalid dimensions: Length and width must be greater than 0");
     }
 
